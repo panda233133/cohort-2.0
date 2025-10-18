@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.container{
+    width: 90%;
+    
+    width: 100%;
+    padding: 20px 0 ;
+    background: url("./assets/Pantalla.jpeg");
+    background-position: center;
+    background-size: cover;
+    filter: saturate(2);
+    filter: contrast(1.4);
+    color: white;
+    
+    
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 30px;
+    
+    
+    
+    
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.bottom{
+    height: 40%;
+    background: linear-gradient(transparent,black);
+    position: absolute;
+    width: 100%;
+    bottom: -40%;
+    transition: all 0.3s ease-in ;
+    padding: 5px 10px;
+  
+   
+}
+.card:hover .bottom{
+    bottom: 0;
+}
+.cast{
+    text-align: center;
+    font-size: 4rem;
+    background: linear-gradient(red);
+    background-clip: text;
+    color: transparent;
+    font-family:danger;
+    letter-spacing: 10px;
+z-index: 2;
+    
+}
+@font-face {
+    font-family: danger;
+    src: url("./assets/Another\ Danger\ -\ Demo.otf");
+}

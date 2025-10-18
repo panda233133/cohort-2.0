@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  font-family: "SF Pro Text Regular",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 90%;
+  background: url("./assets/hero_iphone_17_pro__bknyzxfk2agi_large_2x.jpg");
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    position: fixed;
+    height: 7%;
+    background-color:#2c2b2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 0 90px;
+    z-index: 10;
+   
+    
+}
+nav a{
+     color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+#main .center{
+    padding-top:3.7rem ;
+    
+}
+.center{
+    color: white;
+    text-align: center;
+    line-height: 3.5rem;
+    
+}
+.center h1{
+    font-size: 3.2rem;
+    padding-top: 3rem;
+}
+.center .buttons button{
+    margin-right: 10px;
+    padding: 12px 19px;
+    border-radius: 50px;
+    background-color: #0077ED;
+    color: white;
+    border: none;
+    font-size: 1rem;
+}
+/* .center .buttons {
+    margin-right: 10px;
+} */
+.center .buttons button:nth-child(2){
+    background: transparent;
+    border: 2px solid #0077ED ;
+}
+.center .buttons button:nth-child(2):hover{
+    background-color: #0077ED;
+    color: white;
+
+}
+.center .buttons #blue:hover{
+    color: white;
+}
+.center .buttons button:nth-child(1):hover{
+    filter: opacity(0.8);
+}
+.second{
+    height: 80%;
+    width: 100%;
+    background: url("./assets/hero_iphone_air__0gxyavihpiqu_large_2x.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+}
+.black{
+    color: black;
+}
+.lineheight{
+    line-height: 2rem;
+}
+#blue{
+    color: rgba(0, 0, 255, 0.786);
+}
+.second .center{
+    line-height: 5rem;
+}
+#main .center h2{
+    font-size: 1.5rem;
+}
+.second .center .subhead h2{
+    font-weight: 500;
+}
+.third{
+    height: 93%;
+    width: 100%;
+    background: url("./assets/hero_iphone_17__c5vvimu9a20y_large_2x.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+}
+.third .center{
+    line-height: 5rem;
+}
+.third .center .subhead h2{
+    font-weight: 500;
+}
+.fourth .flex{
+    
+    
+    height: 93vh;
+    gap: 7px;
+  
+    display: flex;
+}
+.fourth .center{
+    line-height: 5rem;
+}
+.fourth .center .subhead h2{
+    font-weight: 500;
+}
+.fourth{
+    display: flex;
+   gap: 7px;
+    width: 98vw;
+    height: 280vh;
+    flex-direction: column;
+    margin:7px 15px ;
+   
+    
+    
+}
+.fourth .flex .primary {
+    width: 48vw;
+    background-color: blue;
+    height: 100%;
+}
+.fourth .flex .secondary{
+    width: 48vw;
+    height: 100%;
+    
+    background-color: green;
+}
+.fourth .flex:nth-child(1) .primary{
+   background: url("./assets/watch.jpg");
+   background-size: cover;
+   background-position: center;
+}
+.fourth .flex:nth-child(1) .secondary{
+    background: url("./assets/buds.jpg");
+    background-size: cover;
+   background-position: center;
+}
+.fourth .flex:nth-child(2) .primary{
+    background: url("./assets/lappy.jpg");
+    background-size: cover;
+   background-position: center;
+}
+.fourth .flex:nth-child(2) .secondary{
+    background: url("./assets/tablet.jpg");
+    background-size: cover;
+   background-position: center;
+}
+.fourth .flex:nth-child(3) .primary{
+    background: url("./assets/trading.jpg");
+    background-size: cover;
+   background-position: center;
+}
+.fourth .flex:nth-child(3) .secondary{
+    background: url("./assets/card.jpg");
+    background-size: cover;
+   background-position: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    width: 100%;
+}
+.grid>div{
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+.boldblack{
+    color: rgba(0, 0, 0, 0.959);
+    font-weight: 200;
+    }
+.grid{
+    padding-top: 30px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blue{
+    color: rgba(74, 74, 238, 0.786);
+    text-decoration: underline;
+}
