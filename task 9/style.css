@@ -24,7 +24,6 @@ main section {
   width: 100%;
   gap: 1rem;
   max-width: 1800px;
-  height: 100vh;
 }
 main section .top {
   width: 100%;
@@ -45,8 +44,8 @@ main section .bottom {
 main section .bottom > p {
   font-size: 1rem;
 }
-main section .bottom h1 {
-  font-size: 2.5rem;
+main section .bottom .text h1 {
+  font-size: 3rem;
 }
 main section .bottom .text {
   display: flex;
@@ -68,7 +67,7 @@ main section .bottom .text p {
   line-height: 1.5;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   main section {
     flex-direction: row;
     padding: 2rem 1rem;
