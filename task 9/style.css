@@ -137,6 +137,10 @@ main section.view3 .bottom .text h1 {
   font-weight: 400;
   font-size: 3rem;
 }
+main section.view3 .bottom .text .paragraphs {
+  display: flex;
+  flex-direction: column;
+}
 main section.view3 .bottom .text .paragraphs p {
   font-size: 1.5rem;
   opacity: 0.7;
@@ -158,6 +162,7 @@ main section.view4 .top img {
   width: 100%;
 }
 main section.view4 .bottom {
+  width: 100%;
   background-color: rgba(29, 29, 29, 0.605);
   display: flex;
   flex-direction: column;
@@ -183,16 +188,26 @@ main section.view4 .bottom .text .paragraphs p {
   opacity: 0.7;
   line-height: 1.5;
 }
+main section.view4 .bottom .text .paragraphs {
+  display: flex;
+  flex-direction: column;
+}
 main section.view5 {
   width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 2rem;
   padding: 1rem;
-  gap: 1.5rem;
 }
 main section.view5 .team {
   font-size: 2.5rem;
   padding: 0 1rem;
+}
+main section.view5 .container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
 }
 main section.view5 .card {
   width: 100%;
@@ -211,8 +226,8 @@ main section.view5 .card .top {
   gap: 1rem;
 }
 main section.view5 .card .top .circle {
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   border: 2px solid white;
   display: flex;
@@ -239,11 +254,11 @@ main section.view5 .card .bottom h1 {
 main section.view5 .card .bottom h3 {
   font-weight: 500;
 }
-main section.view5 .card:nth-child(3) {
+main section.view5 .card:nth-child(2) {
   background: url("./63d2ccbd2e12fa747e999689_team-02.webp");
   background-size: cover;
 }
-main section.view5 .card:nth-child(4) {
+main section.view5 .card:nth-child(3) {
   background: url("./63d2ccbdc1f945f817bf4fd7_team-03.webp");
   background-size: cover;
 }
@@ -257,7 +272,7 @@ main section.view6 {
 main section.view6 .top {
   width: 100%;
   overflow: hidden;
-  border-radius: 0.5rem;
+  border-radius: 0.7rem;
 }
 main section.view6 .top img {
   width: 100%;
@@ -335,5 +350,86 @@ main section.view7 .bottom .down button {
   }
   main section.view1 .bottom .text h1 {
     font-size: 3.5rem;
+  }
+  main section.view2 {
+    flex-direction: row;
+    max-width: 1800px;
+  }
+  main section.view3 {
+    max-width: 1800px;
+    flex-direction: row;
+    padding: 1rem 4rem;
+  }
+  main section.view3 .top, main section.view3 .bottom {
+    width: 50%;
+  }
+  main section.view3 .bottom {
+    justify-content: space-between;
+    padding: 3rem;
+  }
+  main section.view3 .bottom .text .paragraphs {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  main section.view3 .bottom .text .paragraphs p {
+    width: 50%;
+    font-size: large;
+  }
+  main section.view4 {
+    max-width: 1800px;
+    flex-direction: row;
+    padding: 1rem 4rem;
+  }
+  main section.view4 .top, main section.view4 .bottom {
+    width: 50%;
+  }
+  main section.view4 .bottom {
+    justify-content: space-between;
+  }
+  main section.view4 .bottom .text .paragraphs {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  main section.view4 .bottom .text .paragraphs p {
+    width: 50%;
+    font-size: large;
+  }
+  main section.view5 {
+    max-width: 1800px;
+    padding: 1rem 4rem;
+  }
+  main section.view5 .container {
+    flex-direction: row;
+  }
+  main section.view6 {
+    max-width: 1800px;
+    flex-direction: row;
+    padding: 1rem 4rem;
+  }
+  main section.view6 .top, main section.view6 .bottom {
+    width: 50%;
+  }
+  main section.view6 .bottom {
+    justify-content: space-between;
+    padding: 3rem;
+    border-radius: 0.5rem;
+  }
+  main section.view7 {
+    padding: 1rem 4rem;
+    max-width: 1800px;
+  }
+  main section.view7 .bottom {
+    border-radius: 1.5rem;
+    padding: 5rem;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  main section.view7 .bottom .up h1 {
+    font-size: 4rem;
+    width: 80%;
+  }
+  main section.view7 .bottom .down button {
+    padding: 1rem 4rem;
   }
 }/*# sourceMappingURL=style.css.map */
