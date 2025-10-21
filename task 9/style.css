@@ -357,7 +357,7 @@ main section.view7 .bottom .down button {
   }
   main section.view3 {
     max-width: 1800px;
-    flex-direction: row;
+    flex-direction: row-reverse;
     padding: 1rem 4rem;
   }
   main section.view3 .top, main section.view3 .bottom {
